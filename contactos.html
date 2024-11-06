@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BytePros - Redes Sociales</title>
+  <style>
+    .img-tamaño-fijo {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+    .social-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">BytePros</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactos.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="container-fluid bg-dark text-white text-center py-5" style="background-image: url('banner.jpeg'); background-size: cover; background-position: center;">
+    <h1>BytePros en Redes Sociales</h1>
+    <p>Síguenos y mantente en contacto a través de nuestras redes</p>
+  </div>
+
+  <!-- Sección de Redes Sociales -->
+  <div class="container my-5 text-center">
+    <h2 class="mb-4">Nuestras Redes</h2>
+    <p>Haz clic en los íconos para visitarnos en nuestras redes sociales o enviarnos un correo electrónico.</p>
+    <div class="d-flex justify-content-center">
+      <!-- Facebook Icon -->
+      <a href="https://www.facebook.com/profile.php?id=61567380786348&mibextid=ZbWKwL" target="_blank">
+        <img src="face.png" alt="Facebook" class="social-icon">
+      </a>
+      <!-- Instagram Icon -->
+      <a href="https://www.instagram.com/bytepros/profilecard/?igsh=MW5rOW9rbWtnODdodw==" target="_blank">
+        <img src="insta.png" alt="Instagram" class="social-icon">
+      </a>
+      <!-- Correo Electrónico Icon -->
+      <a href="byte.pros1@gmail.com" target="_blank">
+        <img src="correo.jpg" alt="Correo Electrónico" class="social-icon">
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 BytePros. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
